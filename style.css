@@ -1,0 +1,74 @@
+* {
+    font-family: Helvetica;
+    background-color: aliceblue;
+    
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: aliceblue;
+    background-image: url("./images/cornell.jpg");
+    background-size: cover;
+    /* background-position: 0px 50px; */
+    margin: 0px;
+    padding: 150px;
+}
+
+/*  Used this for help with the navigation bar
+    https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
+
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: hsl(208, 100%, 95%);
+  }
+  
+.dropdown-content a:hover {
+    background-color: hsl(208, 100%, 95%);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
